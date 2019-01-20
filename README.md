@@ -15,6 +15,8 @@ Padrões de Proketo são soluções para problemas de desenvolvimento e arquitet
   Um único objeto que tem a capacidade de se comportar de maneiras diferentes
 
 # tipos
+Podem ser Criacionais ou de Scopo
+
 ## Padrão Criacionais
 Dizem respeito ao processo de criação de objetos
 ## Padrões Estruturais
