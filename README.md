@@ -1,5 +1,5 @@
 # design-patterns-csharp
-Project the implementation design patterns with c#
+Projeto de implementação de Designers Patterns, com o C#, baseado no GoF (Livro: "Design PAtterns: Elements of Reusable Object-Oriented Software")
 
 # conceito
 Padrões de Proketo são soluções para problemas de desenvolvimento e arquitetora de software que podem ser utilizadas de diversas maneiras na construção de software independente da linguagem utilizada
@@ -13,6 +13,7 @@ Padrões de Proketo são soluções para problemas de desenvolvimento e arquitet
   Definir os nívels de acesso no objeto
 ## Polimmorfismo
   Um único objeto que tem a capacidade de se comportar de maneiras diferentes
-  
+
+
 # créditos
 Curso Udemy - https://www.udemy.com/curso-de-design-patterns-com-c-desenvolvimento-avancado
