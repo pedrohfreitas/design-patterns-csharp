@@ -4,7 +4,15 @@ Project the implementation design patterns with c#
 # conceito
 Padrões de Proketo são soluções para problemas de desenvolvimento e arquitetora de software que podem ser utilizadas de diversas maneiras na construção de software independente da linguagem utilizada
 
-
-
-# Créditos
+# pilares
+## Abstração
+  O fato de você olhar o mundo real, e o transformalo em objetos dentro do software, no mundo da programação
+## Herança
+  Compartilhamento de caracteristicas dentro do objeto
+## Encapsulamento
+  Definir os nívels de acesso no objeto
+## Polimmorfismo
+  Um único objeto que tem a capacidade de se comportar de maneiras diferentes
+  
+# créditos
 Curso Udemy - https://www.udemy.com/curso-de-design-patterns-com-c-desenvolvimento-avancado
