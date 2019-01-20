@@ -14,7 +14,7 @@ Padrões de Proketo são soluções para problemas de desenvolvimento e arquitet
 ## Polimmorfismo
   Um único objeto que tem a capacidade de se comportar de maneiras diferentes
 
-# Patterns Criacionais
+# patterns criacionais
 Tem como objeto a instanciação de objetos. "Programe para interfaces e não para implementações"
 
 # tipos
@@ -24,6 +24,12 @@ Dizem respeito ao processo de criação de objetos
 Lidam com a composição de classes ou objetos
 ## Padrões Comportamentais
 Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
+
+# patterns
+## Singleton
+ - Patterns de Criação
+ - Solteirão
+ - Cenário: Controlar o acesso as instâncias de classes garantiando que seja instanciada apenas uma vez, para reduzir a utilização de memória.
 
 # créditos
 Curso Udemy - https://www.udemy.com/curso-de-design-patterns-com-c-desenvolvimento-avancado
