@@ -31,5 +31,29 @@ Caracterizam as maneiras pelas quais as classes ou objetos interesagem
  - Solteirão
  - Cenário: Controlar o acesso as instâncias de classes garantiando que seja instanciada apenas uma vez, para reduzir a utilização de memória.
 
+ ## Factory Method
+  - Patterns de Criação 
+  - Método de Fábrica
+  - Frase: "Abstração não deve depender de detalhes, detalhes é quem deve depender de abstrações"
+  - Cenário: Eu tenho vários objetos, mas eu não sei o tipo que deve ser instanciado. Preciso delegar a responsábilidade para que as subclasses especifiquem os objetos que criam.
+  - Objetivo: também conhecido como Construtor Virtual, o objeto desse padrão é a possibilidade de criar uma fábria de objetos em tempo de execução e deixar que o objeto decida seu tipo dinamicamente. O Factory Method dispõe uma interface que cria um objeto, mas não as subclasses que irão decidir qual classe concreta instanciar.
+
+
+
+
+
+# CLI Commands
+dotnet new sln --name <SOLUTION_NAME>
+dotnet new sln --name DesignPatterns
+
+dotnet new console --name <PROJECT_NAME>
+dotnet new console --name Singleton
+
+dotnet sln <SOLUTION_NAME> add <PROJECT>
+dotnet sln .\DesignPatterns.sln add .\Criacao\Singleton\Singleton.csproj
+
+dotnet run --project <PROJECT_NAME>
+dotnet run --project .\Criacao\Singleton\Singleton.csproj
+
 # créditos
 Curso Udemy - https://www.udemy.com/curso-de-design-patterns-com-c-desenvolvimento-avancado
