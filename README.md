@@ -14,6 +14,13 @@ Padrões de Proketo são soluções para problemas de desenvolvimento e arquitet
 ## Polimmorfismo
   Um único objeto que tem a capacidade de se comportar de maneiras diferentes
 
+# tipos
+## Padrão Criacionais
+Dizem respeito ao processo de criação de objetos
+## Padrões Estruturais
+Lidam com a composição de classes ou objetos
+## Padrões Comportamentais
+Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
 
 # créditos
 Curso Udemy - https://www.udemy.com/curso-de-design-patterns-com-c-desenvolvimento-avancado
