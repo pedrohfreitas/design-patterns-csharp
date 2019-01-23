@@ -35,10 +35,14 @@ Caracterizam as maneiras pelas quais as classes ou objetos interesagem
   - Patterns de Criação 
   - Método de Fábrica
   - Frase: "Abstração não deve depender de detalhes, detalhes é quem deve depender de abstrações"
+  - Resumo: Cria uma instância de várias classes DERIVADAS
   - Cenário: Eu tenho vários objetos, mas eu não sei o tipo que deve ser instanciado. Preciso delegar a responsábilidade para que as subclasses especifiquem os objetos que criam.
   - Objetivo: também conhecido como Construtor Virtual, o objeto desse padrão é a possibilidade de criar uma fábria de objetos em tempo de execução e deixar que o objeto decida seu tipo dinamicamente. O Factory Method dispõe uma interface que cria um objeto, mas não as subclasses que irão decidir qual classe concreta instanciar.
 
-
+## Abstract Factory
+ - Patterns de Criação
+ - Resumo: Cria uma instância de várias fámilias de classes 
+ - Fornece uma interface para criar fámilias de objetos relacionados ou dependentes sem especificar suas classes concretas
 
 
 
