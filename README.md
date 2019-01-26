@@ -14,24 +14,16 @@ Padrões de Proketo são soluções para problemas de desenvolvimento e arquitet
 ## Polimmorfismo
   Um único objeto que tem a capacidade de se comportar de maneiras diferentes
 
-# patterns criacionais
-Tem como objeto a instanciação de objetos. "Programe para interfaces e não para implementações"
-
-# tipos
+# Desing Patterns
 ## Padrão Criacionais
-Dizem respeito ao processo de criação de objetos
-## Padrões Estruturais
-Lidam com a composição de classes ou objetos
-## Padrões Comportamentais
-Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
+Tem como objeto a instanciação de objetos. "Programe para interfaces e não para implementações".
 
-# patterns
-## Singleton
+### Singleton
  - Pattern de Criação
  - Solteirão
  - Cenário: Controlar o acesso as instâncias de classes garantiando que seja instanciada apenas uma vez, para reduzir a utilização de memória.
 
- ## Factory Method
+ ### Factory Method
   - Pattern de Criação 
   - Método de Fábrica
   - Frase: "Abstração não deve depender de detalhes, detalhes é quem deve depender de abstrações"
@@ -39,18 +31,33 @@ Caracterizam as maneiras pelas quais as classes ou objetos interesagem
   - Cenário: Eu tenho vários objetos, mas eu não sei o tipo que deve ser instanciado. Preciso delegar a responsábilidade para que as subclasses especifiquem os objetos que criam.
   - Objetivo: também conhecido como Construtor Virtual, o objeto desse padrão é a possibilidade de criar uma fábria de objetos em tempo de execução e deixar que o objeto decida seu tipo dinamicamente. O Factory Method dispõe uma interface que cria um objeto, mas não as subclasses que irão decidir qual classe concreta instanciar.
 
-## Abstract Factory
+### Abstract Factory
  - Pattern de Criação
  - Resumo: Cria uma instância de várias fámilias de classes 
  - Fornece uma interface para criar fámilias de objetos relacionados ou dependentes sem especificar suas classes concretas
 
-## Builder
+### Builder
  - Pattern de Criação
  - Resumo: Separe a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar diferentes representações
  - Permite variar a representação interna de um produto
  - Escapsula o código entre construção e presentação
  - Controle durante o processo de construção
  - Desvantagem: criar um concrete builder especifico para  cada instância diferentes do produto
+
+### Prototype
+  - Pattern de Criação
+  - Resumo: Especifique o tipo de objetos a criar usando uma instância prototípica e crie novos objetos copiando esse protótipo
+  - Vantagens: Copia dos objetos e seus estados
+  - Desvantagens: Problemas com valores internos e inclusão de novos objetos
+
+## Padrões Estruturais
+Lidam com a composição de classes ou objetos
+
+
+## Padrões Comportamentais
+Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
+
+
 
 # CLI Commands
 dotnet new sln --name <SOLUTION_NAME>
