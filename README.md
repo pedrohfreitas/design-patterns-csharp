@@ -64,6 +64,10 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
   - Desvantagens do Adapter de Classe: Não funciona muito bem com hirarquia de classes
   - Desvantagens do Adapter de Objeto: É mais dificil sobreescrever funções do adaptado
 
+ ### Bridge 
+  - Pattern Estrutural
+  - Desacopla uma abstração de sua implementação para que os dois passam varias independentemente  
+
 ## Padrões Comportamentais
 Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
 
