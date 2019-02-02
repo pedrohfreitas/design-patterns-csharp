@@ -51,8 +51,18 @@ Tem como objeto a instanciação de objetos. "Programe para interfaces e não pa
   - Desvantagens: Problemas com valores internos e inclusão de novos objetos
 
 ## Padrões Estruturais
-Lidam com a composição de classes ou objetos
+Lidam com a composição de classes ou objetos.
+Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores.
 
+### Object Adapter
+  - Pattern Estrutural
+  - Classe que faz uma adaptação
+  - O adapter faz com que uma interface adaptada seja compativél com outra interface
+  - Padrão particulamente útil para fazer bibliotecas de classes desenvolvidas independentemente trabalharem juntas.
+  - Vantagens do Adapter de Classe: Permite que o adaptador sobreescreva algumas funções do adaptado
+  - Vantages do Adapter de Objeto: Permite o usu de único adaptador para uma hierarquia de classes adaptadas
+  - Desvantagens do Adapter de Classe: Não funciona muito bem com hirarquia de classes
+  - Desvantagens do Adapter de Objeto: É mais dificil sobreescrever funções do adaptado
 
 ## Padrões Comportamentais
 Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
