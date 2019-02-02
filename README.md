@@ -68,6 +68,11 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
   - Pattern Estrutural
   - Desacopla uma abstração de sua implementação para que os dois passam varias independentemente  
 
+ ### Composite
+  - Pattern Estrutural
+  - Compor objetos em estrutura de árvore para representar hierarquias de partes inteiras. Composite permite que os clientes 
+  tratem objetos individuais e composições de objetos e maneira uniforme
+
 ## Padrões Comportamentais
 Caracterizam as maneiras pelas quais as classes ou objetos interesagem 
 
