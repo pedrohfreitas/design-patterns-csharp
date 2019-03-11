@@ -2,7 +2,7 @@
 Projeto de implementação de Designers Patterns, com o C#, baseado no GoF (Livro: "Design PAtterns: Elements of Reusable Object-Oriented Software")
 
 # conceito
-Padrões de Proketo são soluções para problemas de desenvolvimento e arquitetora de software que podem ser utilizadas de diversas maneiras na construção de software independente da linguagem utilizada
+Padrões de Projeto são soluções para problemas de desenvolvimento e arquitetora de software que podem ser utilizadas de diversas maneiras na construção de software independente da linguagem utilizada
 
 # pilares
 ## Abstração
